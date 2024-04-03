@@ -96,8 +96,8 @@ def test_hendrycks_math(model, data_path, start=0, end=MAX_INT, batch_size=1, te
         results.append(res)
 
     acc = sum(results) / len(results)
-    print('len invalid outputs ====', len(invalid_outputs), ', valid_outputs===', invalid_outputs)
-    print('start===', start, ', end====',end)
+    # print('len invalid outputs ====', len(invalid_outputs), ', valid_outputs===', invalid_outputs)
+    # print('start===', start, ', end====',end)
     print('length====', len(results), ', acc====', acc)
 
 def parse_args():
